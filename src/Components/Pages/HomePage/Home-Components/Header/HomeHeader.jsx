@@ -9,16 +9,16 @@ import "./../../../../Styles/Header-Styles/HeaderStyles.css"
 
 const HomeHeader = () => {
   const handleResumeClick = () => {
-    const resumeUrl = "public/Assets/Resume/DanielDurantResume.pdf";
+    const resumeUrl = "/Resume/DanielDurantResume.pdf";
     window.open(resumeUrl, "_blank");
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "DanielDurantResume.pdf";
+    link.textContent = "Resume";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
-
 
   return(
 

@@ -7,9 +7,10 @@
   "dev": "vite",
   "build": "vite build",
   "lint": "eslint .",
-  "preview": "vite preview --port $PORT",
-  "start": "vite preview --port $PORT"
+  "preview": "vite preview --port $PORT --host 0.0.0.0",
+  "start": "vite preview --port $PORT --host 0.0.0.0"
 }
+
 ,
   "dependencies": {
     "@types/react-scroll": "^1.8.10",
