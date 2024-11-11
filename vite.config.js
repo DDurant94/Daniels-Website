@@ -4,10 +4,12 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 10000
+    port: process.env.PORT || 10000,
+    host: '0.0.0.0'
   },
   preview: {
-    port: 10000
+    port: process.env.PORT || 10000,
+    host: '0.0.0.0'
   },
   define: {
     'process.env.NODE_ENV': '"production"'
