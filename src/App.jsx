@@ -17,7 +17,7 @@ const App = () => {
       setLoading(false);
     }, 1000);
 
-    setIsErrorPage(location.pathname !== "/");
+    setIsErrorPage(location.pathname !== "/" && location.pathname !== "/Resume/DanielDurantResume.pdf");
   }, [location]);
 
   return (
@@ -38,4 +38,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App
