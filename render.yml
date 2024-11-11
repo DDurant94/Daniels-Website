@@ -1,10 +1,11 @@
 services:
-  - type: web
-    name: daniels-portfolio
-    buildCommand: npm install && npm run build
-    startCommand: npm start
-    staticPublishPath: dist
-    envVars:
-      - key: NODE_ENV
-        value: production
-    runtime: node 22
+- type: web
+  name: Daniels-Website
+  runtime: node
+  repo: https://github.com/DDurant94/Daniels-Website
+  plan: starter
+  region: oregon
+  buildCommand: npm install && npm run build
+  startCommand: npm start
+  autoDeploy: false
+version: "1"
