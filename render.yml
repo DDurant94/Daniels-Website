@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: daniels-portfolio
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    staticPublishPath: dist
+    envVars:
+      - key: NODE_ENV
+        value: production
+    runtime: node 22
