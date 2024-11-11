@@ -1,0 +1,24 @@
+#about-me-section{
+  display: flex;
+  flex-direction: column;
+  position: inherit;
+}
+
+#about-me-section h3{
+  color: #dad7cd;
+}
+
+#about-me-section h4{
+  color:  #dad7cde7;
+  text-shadow: none;
+}
+
+#about-me-edu-container p, #about-me-xp-container p{
+  color: #dad7cda7;
+  text-shadow: none;
+}
+
+#about-me-col-xp,#about-me-col-edu{
+  border-style:solid;
+  border-color: #a3b18a;
+}

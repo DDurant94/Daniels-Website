@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Imperial+Script&family=Mea+Culpa&family=Tangerine:wght@400;700&display=swap');
+
+#nav-brand {
+  font-family: 'Imperial Script','Dancing Script', 'Mea Culpa', 'Tangerine' ;
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+  color: #344e41;
+  text-shadow: none;
+  animation: colorFade 8s forwards;
+  z-index: 1;
+}
+
+#nav-brand::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 1;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color:  #a3b18a;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: write 1.5s steps(200000, end) .5s normal both;
+  z-index: 2;
+}
+
+@keyframes write {
+  from {
+    stroke-dashoffset: 100%;
+    width: 0;
+  }
+  to {
+    stroke-dashoffset: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes colorFade {
+  from {
+    color: #344e41;
+  }
+  to {
+    color:  #a3b18a;
+  }
+}
+
+@keyframes outlineWrite {
+  from {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes underline {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+#nav-toggle {
+  background-color:  #a3b18a;
+  padding: .12rem;
+}
+
+#nav-links {
+  position: relative;
+  color:  #a3b18a;
+  text-decoration: none;
+}
+
+#nav-links::after, #hire-me-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color:  #a3b18a;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.6s ease-out;
+}
+
+#nav-links:hover::after, #hire-me-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#hire-me-link {
+  z-index: 1000;
+  text-decoration: none;
+  color:  #a3b18a;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Domine:wght@400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+  -webkit-font-smoothing: antialiased;
+}
+
+#main-body{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #344e41;
+  background:  radial-gradient(#344e41, #3a5a40 );
+  min-height: calc(100vh - 40px);
+  position: relative;
+}
+
+h1,h2,h3,h4,h5{
+  text-shadow: .025rem .01rem .12rem rgba(0, 0, 0, 0.473);
+}
+
+#app-container{
+  color: #a3b18a;
+  margin: 1%;
+}

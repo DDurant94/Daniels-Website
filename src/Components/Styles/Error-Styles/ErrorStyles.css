@@ -1,0 +1,15 @@
+#error-page-container{
+  height: 100vh;
+}
+
+#error-page-button{
+  background-color: #3a5a40;
+  border-color: #a3b18a;
+  color: #a3b18a;
+}
+
+#error-page-button:hover{
+  background-color: #a3b18a;
+  color: #3a5a40;
+  border-color: #3a5a40;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100%"
+   height="100%"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="274.39371"
+       y="273.08081"
+       width="269.14215"
+       height="231.06837"
+       id="rect3" />
+  </defs>
+  <g
+     id="layer1"
+     transform="matrix(2.9935976,0,0,5.3047691,-216.93687,-388.99713)">
+    <rect
+       style="fill:#344e41;fill-opacity:1;stroke:#040000;stroke-width:0.0601439;stroke-linejoin:round;paint-order:fill markers stroke"
+       id="rect1"
+       width="70.187653"
+       height="55.945541"
+       x="72.590385"
+       y="73.285126" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2"
+       style="font-size:192px;font-family:'Dancing Script';-inkscape-font-specification:'Dancing Script';white-space:pre;shape-inside:url(#rect3);fill:#a3b18a;fill-opacity:1;stroke:#dad7cd;stroke-width:1.43244;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+         x="274.39453"
+         y="444.28008"
+         id="tspan1">DD</tspan></text>
+  </g>
+</svg>
