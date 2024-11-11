@@ -47,7 +47,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Deploy to Daniel's Website
+      - name: Deploy to Daniels-Website
         uses: johnbeynon/render-deploy-action@v0.0.9
         with:
           service-id: ${{ secrets.SERVICE_ID }}
