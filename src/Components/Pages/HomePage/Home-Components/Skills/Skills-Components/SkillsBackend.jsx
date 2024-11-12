@@ -8,7 +8,7 @@ const Backend = () =>{
         trigger="hover"
         state="hover-pinch"
         stroke="bold"
-        colors="primary:#dad7cd,secondary:#a3b18a"
+        colors="primary:#003A70,secondary:#8DBEDC"
         style={{width:".85rem",height:".85rem"}}>
     </lord-icon>;
 

@@ -12,7 +12,7 @@ const AboutMeExperience = () => {
             src="https://cdn.lordicon.com/vxnfmfuw.json"
             trigger="hover"
             stroke="light"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'3rem',height:'3rem'}}>
           </lord-icon>
 

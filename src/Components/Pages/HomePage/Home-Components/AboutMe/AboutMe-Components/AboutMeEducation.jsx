@@ -1,5 +1,3 @@
-import { motion, inView } from "framer-motion";
-import { useRef } from "react";
 
 const Education = () => {
 
@@ -15,7 +13,7 @@ const Education = () => {
               trigger="morph"
               stroke="light"
               state="morph-books"
-              colors="primary:#dad7cd,secondary:#588157"
+              colors="primary:#003A70,secondary:#8DBEDC"
               style={{width:"3rem",height:"3rem"}}>
           </lord-icon>
 

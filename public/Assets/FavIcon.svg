@@ -23,7 +23,7 @@
      id="layer1"
      transform="matrix(2.9935976,0,0,5.3047691,-216.93687,-388.99713)">
     <rect
-       style="fill:#344e41;fill-opacity:1;stroke:#040000;stroke-width:0.0601439;stroke-linejoin:round;paint-order:fill markers stroke"
+       style="fill:#003A70;fill-opacity:1;stroke:#040000;stroke-width:0.0601439;stroke-linejoin:round;paint-order:fill markers stroke"
        id="rect1"
        width="70.187653"
        height="55.945541"
@@ -33,7 +33,7 @@
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text2"
-       style="font-size:192px;font-family:'Dancing Script';-inkscape-font-specification:'Dancing Script';white-space:pre;shape-inside:url(#rect3);fill:#a3b18a;fill-opacity:1;stroke:#dad7cd;stroke-width:1.43244;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
+       style="font-size:192px;font-family:'Dancing Script';-inkscape-font-specification:'Dancing Script';white-space:pre;shape-inside:url(#rect3);fill:#64A4CE;fill-opacity:1;stroke:#003A70;stroke-width:1.43244;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"><tspan
          x="274.39453"
          y="444.28008"
          id="tspan1">DD</tspan></text>

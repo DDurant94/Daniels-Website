@@ -3,13 +3,13 @@
 }
 
 #error-page-button{
-  background-color: #3a5a40;
-  border-color: #a3b18a;
-  color: #a3b18a;
+  background-color: #64A4CE;
+  border-color: #0F558F;
+  color: #B7D7EA;
 }
 
 #error-page-button:hover{
-  background-color: #a3b18a;
-  color: #3a5a40;
-  border-color: #3a5a40;
+  background-color: #0F558F;
+  color: #E2EFF6;
+  border-color: #64A4CE;
 }

@@ -1,19 +1,19 @@
 #work-together-bttn{
-  background-color: #3a5a40;
-  border-color: #a3b18a;
-  color: #a3b18a;
+  background-color: #64A4CE;
+  border-color: #0F558F;
+  color: #B7D7EA;
 }
 
 #work-together-bttn:hover{
-  background-color: #a3b18a;
-  color: #3a5a40;
-  border-color: #3a5a40;
+  background-color: #0F558F;
+  color: #E2EFF6;
+  border-color: #64A4CE;
 }
 
 #contact-me-links{
-  color: #dad7cd;
+  color: #1965A0;
 }
 
 #contact-me-links:hover{
-  color:#a3b18a;
+  color:#003A70;
 }

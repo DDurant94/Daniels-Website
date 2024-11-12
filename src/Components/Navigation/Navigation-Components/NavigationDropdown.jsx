@@ -1,5 +1,5 @@
 import { Nav } from "react-bootstrap";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const NavDropdownMenu = () => {
   return (

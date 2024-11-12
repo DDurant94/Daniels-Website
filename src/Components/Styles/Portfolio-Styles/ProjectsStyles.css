@@ -9,12 +9,12 @@ circle {
 }
 
 .bg {
-  stroke:#dad7cd;
+  stroke:#4893C6;
   opacity: 0.3;
 }
 
 #progress .indicator {
-  stroke: #a3b18a;
+  stroke: #1965A0;
 }
 
 #projects-list {
@@ -25,18 +25,18 @@ circle {
   overflow-x: scroll;
   flex: 0 0 40rem;
   border-style: solid;
-  background-color: #588157ba;
+  background-color: #8dbedcc2;
 }
 
 #projects-list::-webkit-scrollbar {
   height: .45rem;
   width: .45rem;
-  background:#dad7cd;
+  background:#B7D7EA;
   -webkit-border-radius: 1ex;
 }
 
 #projects-list::-webkit-scrollbar-thumb {
-  background:#588157c7;
+  background:#1965a0cb;
   -webkit-border-radius: 2ex;
 }
 
@@ -55,10 +55,10 @@ circle {
 }
 
 #project-cards{
-  background-color: #3a5a40;
-  color: #dad7cd;
+  background-color: #003a70ee;
+  color: #E2EFF6;
   border-width: .19rem;
-  border-color: #a3b18a;
+  border-color: #1965A0;
 
 }
 
@@ -94,15 +94,16 @@ circle {
 }
 
 #project-bttns{
-  background-color: #3a5a40;
-  border-color: #a3b18a;
-  color: #a3b18a;
+  background-color: #64A4CE;
+  border-color: #0F558F;
+  color: #0F558F;
 }
 
 #project-bttns:hover{
-  background-color: #a3b18a;
-  color: #3a5a40;
-  border-color: #3a5a40;
+  background-color: #0F558F;
+  color: #E2EFF6;
+  border-color: #64A4CE;
+
 }
 
 @media (max-width:766px) {

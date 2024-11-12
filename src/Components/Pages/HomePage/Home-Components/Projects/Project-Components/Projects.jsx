@@ -35,7 +35,7 @@ const Projects = () => {
                 <Card.Title id="projects-card-title">Advanced E-Commerce API</Card.Title>
                 
                 <Card.Text>
-                  Rebuilding UI of "E-Commerce" for Full Stack Deployment.
+                  Rebuilding UI of &quot;E-Commerce&quot; for Full Stack Deployment.
                 </Card.Text>
 
                 <div id="projects-bttn-group"  className="d-flex justify-content-around mt-sm-3 mt-md-4 mt-lg-4 mt-xl-4 mt-xxl-4 mt-1">
@@ -61,7 +61,7 @@ const Projects = () => {
                 <Card.Title id="projects-card-title">E-Commerce</Card.Title>
 
                 <Card.Text>
-                  Rebuilding UI to Connect "Advanced E-Commerce API" for Full Stack Deployment.
+                  Rebuilding UI to Connect &quot;Advanced E-Commerce API&quot; for Full Stack Deployment.
                 </Card.Text>
 
                 <div id="projects-bttn-group"  className="d-flex justify-content-around mt-sm-3 mt-md-4 mt-lg-4 mt-xl-4 mt-xxl-4 mt-1">

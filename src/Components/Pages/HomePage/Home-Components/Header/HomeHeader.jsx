@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button, Col, Row} from "react-bootstrap";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import ProfilePicture from "./../../../../../Assets/Pictures/ProfilePictures/ProfilePicture.jpg";
 import ProfilePicture2 from "./../../../../../Assets/Pictures/ProfilePictures/ProfilePicture2.jpg";
@@ -39,7 +39,7 @@ const HomeHeader = () => {
           <motion.div id="home-header-wrapper" className="text-center mb-5">
 
             <div id="title-container" className="mt-lg-5">
-              <h1>Hello, I'm Daniel Durant</h1>
+              <h1>Hello, I&apos;m Daniel Durant</h1>
             </div>
 
             <div id="header-p-container">
@@ -56,7 +56,7 @@ const HomeHeader = () => {
                       src="https://cdn.lordicon.com/ictzmbek.json"
                       trigger="hover"
                       state="hover-unfold"
-                      colors="primary:#dad7cd,secondary:#588157"
+                      colors="primary:#2D82BD,secondary:#8DBEDC"
                       style={{ width: "6rem", height: "2.5rem" }}>
                     </lord-icon>
                   </Button>
@@ -68,7 +68,7 @@ const HomeHeader = () => {
                       <lord-icon
                           src="https://cdn.lordicon.com/tzdzfcda.json"
                           trigger="hover"  
-                          colors="primary:#dad7cd,secondary:#588157"
+                          colors="primary:#2D82BD,secondary:#8DBEDC"
                           style={{width:"6rem",height:"2.5rem"}}>
                       </lord-icon>
                     </Button>

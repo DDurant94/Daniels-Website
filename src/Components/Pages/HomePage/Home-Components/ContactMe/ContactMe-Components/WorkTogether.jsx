@@ -1,4 +1,4 @@
-import { Button, Row, Col } from "react-bootstrap"
+import { Button } from "react-bootstrap"
 
 const LetsWorkTogether = () =>{
 
@@ -9,7 +9,7 @@ const LetsWorkTogether = () =>{
         stroke="light"
         delay="1000"
         state="in-reveal"
-        colors="primary:#dad7cd,secondary:#588157"
+        colors="primary:#003A70,secondary:#8DBEDC"
         style={{width:"4rem",height:"3rem"}}>
       </lord-icon>;
 
@@ -24,7 +24,7 @@ const LetsWorkTogether = () =>{
 
             <div id="work-together-title-container">
 
-              <h2 className="p-1">Let's Work Together {icon}</h2>
+              <h2 className="p-1">Let&apos;s Work Together {icon}</h2>
             
             </div>
 
@@ -36,7 +36,7 @@ const LetsWorkTogether = () =>{
               Are you ready to turn your web project dreams into reality? With a specialization in robust backend systems using 
               Python and Flask, I also bring expertise in interaction design and scalable design systems. From crafting 
               dynamic apps to ensuring top-notch backend security, I help awesome people like you build ambitious yet 
-              accessible web projects. Let's make something amazing together! 
+              accessible web projects. Let&apos;s make something amazing together! 
             </p>
 
             <div id="work-together-bttn-container">

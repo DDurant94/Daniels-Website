@@ -5,7 +5,7 @@
   font-size: 2rem;
   position: relative;
   display: inline-block;
-  color: #344e41;
+  color: #0F558F;
   text-shadow: none;
   animation: colorFade 8s forwards;
   z-index: 1;
@@ -18,7 +18,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  color:  #a3b18a;
+  color:  #0F558F;
   overflow: hidden;
   white-space: nowrap;
   animation: write 1.5s steps(200000, end) .5s normal both;
@@ -38,10 +38,10 @@
 
 @keyframes colorFade {
   from {
-    color: #344e41;
+    color: #B7D7EA;
   }
   to {
-    color:  #a3b18a;
+    color:  #0F558F;
   }
 }
 
@@ -66,14 +66,15 @@
 }
 
 #nav-toggle {
-  background-color:  #a3b18a;
+  background-color:  #0F558F;
   padding: .12rem;
 }
 
 #nav-links {
   position: relative;
-  color:  #a3b18a;
+  color:  #0F558F;
   text-decoration: none;
+  cursor: pointer;
 }
 
 #nav-links::after, #hire-me-link::after {
@@ -83,7 +84,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background-color:  #a3b18a;
+  background-color:  #0F558F;
   transform: scaleX(0);
   transform-origin: bottom right;
   transition: transform 0.6s ease-out;
@@ -97,5 +98,5 @@
 #hire-me-link {
   z-index: 1000;
   text-decoration: none;
-  color:  #a3b18a;
+  color:  #0F558F;
 }

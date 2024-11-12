@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 import HomeHeader from "./../HomePage/Home-Components/Header/HomeHeader";
 import AboutMe from "./../HomePage/Home-Components/AboutMe/AboutMe";
 import Skills from "./../HomePage/Home-Components/Skills/Skills";
@@ -19,7 +17,7 @@ const Home = () => {
 
       <div id="home-body-container">
 
-        <div className="shadow-lg rounded-5">
+        <div className="shadow-lg rounded-5" style={{backgroundColor:"#b7d7ea9c"}}>
 
           <div id="about-me" className="mb-3">
             <AboutMe/>
@@ -27,10 +25,10 @@ const Home = () => {
 
         </div>
 
-        <hr style={{ width: '100%', borderColor:'#dad7cda7' }}/>
+        
         <br/>
 
-        <div className="shadow-lg rounded-5">
+        <div className="shadow-lg rounded-5" style={{backgroundColor:"#b7d7ea9c"}}>
 
         <div id="skills" className="mb-5" >
           <Skills/>
@@ -51,10 +49,10 @@ const Home = () => {
 
         </div>
         
-        <hr style={{ width: '100%', borderColor:'#dad7cda7' }}/>
+        
         <br />
 
-        <div className="shadow-lg rounded-5 p-3">
+        <div className="shadow-lg rounded-5 p-3" style={{backgroundColor:"#b7d7ea9c"}}>
 
           <div id="photo-gallery">
             <PhotoGallery/>

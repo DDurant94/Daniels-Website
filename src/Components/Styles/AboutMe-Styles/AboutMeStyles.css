@@ -5,20 +5,20 @@
 }
 
 #about-me-section h3{
-  color: #dad7cd;
+  color: #1965A0;
 }
 
 #about-me-section h4{
-  color:  #dad7cde7;
+  color:  #1965A0e7;
   text-shadow: none;
 }
 
 #about-me-edu-container p, #about-me-xp-container p{
-  color: #dad7cda7;
+  color: #1965A0a7;
   text-shadow: none;
 }
 
 #about-me-col-xp,#about-me-col-edu{
   border-style:solid;
-  border-color: #a3b18a;
+  border-color: #64A4CE;
 }

@@ -17,7 +17,7 @@ const AboutMeIcons = () => {
             delay="1500"
             stroke="light"
             state="in-reveal"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
     
@@ -35,7 +35,7 @@ const AboutMeIcons = () => {
               delay="1500"
               stroke="light"
               state="in-reveal"
-              colors="primary:#dad7cd,secondary:#588157"
+              colors="primary:#003A70,secondary:#8DBEDC"
               style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
 
@@ -49,7 +49,7 @@ const AboutMeIcons = () => {
             delay="2000"
             stroke="light"
             state="in-reveal"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
         </Col>
@@ -63,7 +63,7 @@ const AboutMeIcons = () => {
             delay="2500"
             stroke="light"
             state="in-reveal"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
         
@@ -81,7 +81,7 @@ const AboutMeIcons = () => {
               delay="3000"
               stroke="light"
               state="in-reveal"
-              colors="primary:#dad7cd,secondary:#588157"
+              colors="primary:#003A70,secondary:#8DBEDC"
               style={{width:'4rem',height:'4rem'}}>
             </lord-icon>
         </Col>
@@ -95,7 +95,7 @@ const AboutMeIcons = () => {
             delay="3500"
             stroke="light"
             state="in-reveal"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
         
@@ -111,7 +111,7 @@ const AboutMeIcons = () => {
             delay="4000"
             stroke="light"
             state="in-reveal"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
         
@@ -129,7 +129,7 @@ const AboutMeIcons = () => {
             delay="4500"
             stroke="light"
             state="in-reveal"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
         
@@ -144,7 +144,7 @@ const AboutMeIcons = () => {
             delay="5000"
             stroke="light"
             state="in-reveal"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
         
@@ -159,7 +159,7 @@ const AboutMeIcons = () => {
             delay="5500"
             stroke="light"
             state="in-reveal"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
         
@@ -177,7 +177,7 @@ const AboutMeIcons = () => {
             delay="6000"
             stroke="light"
             state="in-reveal"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
         
@@ -192,7 +192,7 @@ const AboutMeIcons = () => {
             delay="6500"
             stroke="light"
             state="in-reveal"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
                 
@@ -207,7 +207,7 @@ const AboutMeIcons = () => {
             delay="7000"
             state="in-reveal"
             stroke="light"
-            colors="primary:#dad7cd,secondary:#588157"
+            colors="primary:#003A70,secondary:#8DBEDC"
             style={{width:'4rem',height:'4rem'}}>
           </lord-icon>
 
