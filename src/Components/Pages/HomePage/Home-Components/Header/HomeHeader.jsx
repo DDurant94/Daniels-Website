@@ -45,7 +45,7 @@ const HomeHeader = () => {
               </div>
 
               <div id="header-p-container">
-                <p>Full Stack Software Engineer</p>
+                <p>Full-Stack Software Engineer</p>
               </div>
 
             </motion.div>

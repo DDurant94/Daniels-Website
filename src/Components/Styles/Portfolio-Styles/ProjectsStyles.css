@@ -25,7 +25,7 @@ circle {
   overflow-x: scroll;
   flex: 0 0 40rem;
   border-style: solid;
-  background-color: #8dbedcc2;
+  background-color: #8dbedc5e;
 }
 
 #projects-list::-webkit-scrollbar {

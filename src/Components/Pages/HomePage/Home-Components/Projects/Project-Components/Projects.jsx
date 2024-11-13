@@ -24,12 +24,12 @@ const Projects = () => {
           <motion.circle cx="50" cy="50" r="30" pathLength="1" className="indicator" style={{ pathLength: scrollXProgress }}/>
         </svg>
 
-        <ListGroup ref={ref} id="projects-list" as={"ul"} className="shadow-lg">
+        <ListGroup ref={ref} id="projects-list" as={"ul"} className="shadow-lg rounded-3">
 
           <ListGroup.Item id="projects-list-item" as={"li"} className="m-2 py-4 px-sm-5 px-md-1 px-lg-1 px-xl-1 px-xxl-1">
-            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
+            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg rounded-3" id="project-cards" style={{height:"100%"}}>
 
-              <Card.Img id="card-img" alt="Advanced E-Commerce API Website home page" src={AdvancedECommAPI} className='img-fluid shadow-lg'/>
+              <Card.Img id="card-img" alt="Advanced E-Commerce API Website home page" src={AdvancedECommAPI} className='img-fluid shadow-lg rounded-3'/>
               <Card.Body id="projects-card-body">
 
                 <Card.Title id="projects-card-title">Advanced E-Commerce API</Card.Title>
@@ -40,9 +40,9 @@ const Projects = () => {
 
                 <div id="projects-bttn-group"  className="d-flex justify-content-around mt-sm-3 mt-md-4 mt-lg-4 mt-xl-4 mt-xxl-4 mt-1">
 
-                  <Button id="project-bttns" className="shadow" href="https://github.com/DDurant94/Advanced-API-Deployment">GitHub</Button>
+                  <Button id="project-bttns" className="shadow rounded-3" href="https://github.com/DDurant94/Advanced-API-Deployment">GitHub</Button>
 
-                  <Button id="project-bttns" className="shadow" href="https://advanced-api-deployment.onrender.com/api/docs/">Live Site</Button>
+                  <Button id="project-bttns" className="shadow rounded-3" href="https://advanced-api-deployment.onrender.com/api/docs/">Live Site</Button>
 
                 </div>
 
@@ -52,9 +52,9 @@ const Projects = () => {
           </ListGroup.Item>
 
           <ListGroup.Item id="projects-list-item" as={"li"} className="m-2 py-4 px-sm-5 px-md-1 px-lg-1 px-xl-1 px-xxl-1">
-            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
+            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg rounded-3" id="project-cards" style={{height:"100%"}}>
 
-              <Card.Img id="card-img" alt="E-Commerce Website home page" src={FullStackEComm} className='img-fluid shadow-lg'/>
+              <Card.Img id="card-img" alt="E-Commerce Website home page" src={FullStackEComm} className='img-fluid shadow-lg rounded-3'/>
 
               <Card.Body id="projects-card-body">
 
@@ -65,7 +65,7 @@ const Projects = () => {
                 </Card.Text>
 
                 <div id="projects-bttn-group"  className="d-flex justify-content-around mt-sm-3 mt-md-4 mt-lg-4 mt-xl-4 mt-xxl-4 mt-1">
-                  <Button id="project-bttns" className="shadow" href="https://github.com/DDurant94/Advanced-API-Deployment">GitHub</Button>
+                  <Button id="project-bttns" className="shadow rounded-3" href="https://github.com/DDurant94/Advanced-API-Deployment">GitHub</Button>
                 </div>
 
               </Card.Body>
@@ -74,9 +74,9 @@ const Projects = () => {
           </ListGroup.Item>
 
           <ListGroup.Item id="projects-list-item" as={"li"} className="m-2 py-4 px-sm-5 px-md-1 px-lg-1 px-xl-1 px-xxl-1">
-            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
+            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg rounded-3" id="project-cards" style={{height:"100%"}}>
 
-              <Card.Img id="card-img" alt="Factory Management API Website home page" src={FactoryManageAPI} className='img-fluid shadow-lg'/>
+              <Card.Img id="card-img" alt="Factory Management API Website home page" src={FactoryManageAPI} className='img-fluid shadow-lg rounded-3'/>
               <Card.Body id="projects-card-body">
 
                 <Card.Title id="projects-card-title">Factory Management API</Card.Title>
@@ -86,7 +86,7 @@ const Projects = () => {
                 </Card.Text>
 
                   <div id="projects-bttn-group"  className="d-flex justify-content-around mt-sm-3 mt-md-5 mt-lg-5 mt-xl-5 mt-xxl-5 mt-3">
-                    <Button id="project-bttns" className="shadow" href="https://github.com/DDurant94/Advanced-API-Deployment">GitHub</Button>
+                    <Button id="project-bttns" className="shadow rounded-3" href="https://github.com/DDurant94/Advanced-API-Deployment">GitHub</Button>
                   </div>
 
               </Card.Body>
@@ -95,9 +95,9 @@ const Projects = () => {
           </ListGroup.Item>
           
           <ListGroup.Item id="projects-list-item" as={"li"} className="m-2 py-4 px-sm-5 px-md-1 px-lg-1 px-xl-1 px-xxl-1">
-            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
+            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg rounded-3" id="project-cards" style={{height:"100%"}}>
 
-              <Card.Img id="card-img" alt="Poké Catcher Website home page" src={PokeCatcher} className='img-fluid shadow-lg'/>
+              <Card.Img id="card-img" alt="Poké Catcher Website home page" src={PokeCatcher} className='img-fluid shadow-lg rounded-3'/>
               <Card.Body id="projects-card-body">
 
                 <Card.Title id="projects-card-title">Poké Catcher</Card.Title>
@@ -107,7 +107,7 @@ const Projects = () => {
                 </Card.Text>
 
                   <div id="projects-bttn-group" className="d-flex justify-content-around mt-sm-3 mt-md-5 mt-lg-5 mt-xl-5 mt-xxl-5 mt-3">
-                    <Button id="project-bttns" className="shadow" href="https://github.com/DDurant94/Pokemon-API-JavaScript">GitHub</Button>
+                    <Button id="project-bttns" className="shadow rounded-3" href="https://github.com/DDurant94/Pokemon-API-JavaScript">GitHub</Button>
                   </div>
 
               </Card.Body>
@@ -116,9 +116,9 @@ const Projects = () => {
           </ListGroup.Item>
 
           <ListGroup.Item id="projects-list-item" as={"li"} className="m-2 py-4 px-sm-5 px-md-1 px-lg-1 px-xl-1 px-xxl-1">
-            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
+            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg rounded-3" id="project-cards" style={{height:"100%"}}>
 
-              <Card.Img id="card-img" alt="React Marvel API Website home page" src={MarvelSearchEngine} className='img-fluid shadow-lg'/>
+              <Card.Img id="card-img" alt="React Marvel API Website home page" src={MarvelSearchEngine} className='img-fluid shadow-lg rounded-3'/>
               <Card.Body id="projects-card-body">
 
                 <Card.Title id="projects-card-title">React Marvel API</Card.Title>
@@ -128,7 +128,7 @@ const Projects = () => {
                 </Card.Text>
 
                   <div id="projects-bttn-group" className="d-flex justify-content-around mt-sm-3 mt-md-5 mt-lg-5 mt-xl-5 mt-xxl-5 mt-3">
-                    <Button id="project-bttns" className="shadow" href="https://github.com/DDurant94/React-BootStrap">GitHub</Button>
+                    <Button id="project-bttns" className="shadow rounded-3" href="https://github.com/DDurant94/React-BootStrap">GitHub</Button>
                   </div>
 
               </Card.Body>
