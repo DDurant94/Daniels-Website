@@ -93,6 +93,11 @@
 
   #header-bttns {
     width: 100% !important; 
-    margin-bottom: 10px !important;
+    margin-bottom: 2px !important;
+  }
+
+  #header-icon-bttns{
+    width: 3rem !important;
+    height: 2rem !important;
   }
 }

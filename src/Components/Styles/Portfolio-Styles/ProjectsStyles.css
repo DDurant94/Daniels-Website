@@ -118,13 +118,13 @@ circle {
 
 @media (max-width:575.5px) {
   #card-img:hover {
-    transform: scale(1.20);
+    transform: scale(1.10);
   }
 }
 
 @media (max-width: 435px){
   #project-cards{
-    width: 350px;
+    width: 320px;
     height: auto;
   }
 
@@ -133,21 +133,21 @@ circle {
   }
 
   #card-img:hover {
-    transform: scale(1.28);
+    transform: scale(1.10);
   }
 
   #projects-list-item:first-of-type #card-img:hover{
-    margin-left: .4rem;
+    margin-left: 0rem;
   }
   
   #projects-list-item:last-of-type #card-img:hover{
-    right: .4rem;
+    right: 0rem;
   }
 }
 
 @media (max-width: 400px){
   #project-cards{
-    width: 300px;
+    width: 290px;
     height: auto;
   }
 
@@ -167,7 +167,7 @@ circle {
 
 @media (max-width: 330px){
   #project-cards{
-    width: 260px;
+    width: 240px;
     height: auto;
   }
 

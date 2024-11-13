@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <>
-    <div id="home-container" className="container-fluid-center">
+    <div id="home-container" className="container-fluid-center mx-3">
 
       <div id="home-header-container" className="mx-5">
         <HomeHeader/>
@@ -17,9 +17,9 @@ const Home = () => {
 
       <div id="home-body-container">
 
-        <div className="shadow-lg rounded-5" style={{backgroundColor:"#b7d7ea9c"}}>
+        <div className="shadow rounded-5" style={{backgroundColor:"#ffffff8f"}}>
 
-          <div id="about-me" className="mb-3">
+          <div id="about-me" className="mb-5">
             <AboutMe/>
           </div>
 
@@ -28,7 +28,7 @@ const Home = () => {
         
         <br/>
 
-        <div className="shadow-lg rounded-5" style={{backgroundColor:"#b7d7ea9c"}}>
+        <div className="shadow rounded-5" style={{backgroundColor:"#ffffff8f"}}>
 
         <div id="skills" className="mb-5" >
           <Skills/>
@@ -52,7 +52,7 @@ const Home = () => {
         
         <br />
 
-        <div className="shadow-lg rounded-5 p-3" style={{backgroundColor:"#b7d7ea9c"}}>
+        <div className="shadow rounded-5 p-3" style={{backgroundColor:"#ffffff8f"}}>
 
           <div id="photo-gallery">
             <PhotoGallery/>

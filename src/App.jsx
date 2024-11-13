@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import NavigationBar from './Components/Navigation/NavigationBar.jsx';
 import Footer from './Components/Footer/Footer.jsx';

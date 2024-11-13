@@ -27,7 +27,7 @@ const Projects = () => {
         <ListGroup ref={ref} id="projects-list" as={"ul"} className="shadow-lg">
 
           <ListGroup.Item id="projects-list-item" as={"li"} className="m-2 py-4 px-sm-5 px-md-1 px-lg-1 px-xl-1 px-xxl-1">
-            <Card className="p-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
+            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
 
               <Card.Img id="card-img" alt="Advanced E-Commerce API Website home page" src={AdvancedECommAPI} className='img-fluid shadow-lg'/>
               <Card.Body id="projects-card-body">
@@ -52,7 +52,7 @@ const Projects = () => {
           </ListGroup.Item>
 
           <ListGroup.Item id="projects-list-item" as={"li"} className="m-2 py-4 px-sm-5 px-md-1 px-lg-1 px-xl-1 px-xxl-1">
-            <Card className="p-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
+            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
 
               <Card.Img id="card-img" alt="E-Commerce Website home page" src={FullStackEComm} className='img-fluid shadow-lg'/>
 
@@ -74,7 +74,7 @@ const Projects = () => {
           </ListGroup.Item>
 
           <ListGroup.Item id="projects-list-item" as={"li"} className="m-2 py-4 px-sm-5 px-md-1 px-lg-1 px-xl-1 px-xxl-1">
-            <Card className="p-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
+            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
 
               <Card.Img id="card-img" alt="Factory Management API Website home page" src={FactoryManageAPI} className='img-fluid shadow-lg'/>
               <Card.Body id="projects-card-body">
@@ -95,7 +95,7 @@ const Projects = () => {
           </ListGroup.Item>
           
           <ListGroup.Item id="projects-list-item" as={"li"} className="m-2 py-4 px-sm-5 px-md-1 px-lg-1 px-xl-1 px-xxl-1">
-            <Card className="p-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
+            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
 
               <Card.Img id="card-img" alt="Poké Catcher Website home page" src={PokeCatcher} className='img-fluid shadow-lg'/>
               <Card.Body id="projects-card-body">
@@ -116,7 +116,7 @@ const Projects = () => {
           </ListGroup.Item>
 
           <ListGroup.Item id="projects-list-item" as={"li"} className="m-2 py-4 px-sm-5 px-md-1 px-lg-1 px-xl-1 px-xxl-1">
-            <Card className="p-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
+            <Card className="p-sm-4 p-md-4 p-lg-3 p-xxl-3 shadow-lg" id="project-cards" style={{height:"100%"}}>
 
               <Card.Img id="card-img" alt="React Marvel API Website home page" src={MarvelSearchEngine} className='img-fluid shadow-lg'/>
               <Card.Body id="projects-card-body">
