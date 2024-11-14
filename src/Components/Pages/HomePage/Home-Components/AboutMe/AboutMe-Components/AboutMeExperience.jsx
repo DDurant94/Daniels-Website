@@ -6,7 +6,7 @@ const AboutMeExperience = () => {
     <>
       <div className="container-fluid-center text-center p-2" id="about-me-xp-container">
 
-        <div id="about-me-xp-logo-container" className="mt-2">
+        <div id="about-me-xp-logo-container" className="mt-4">
 
           <lord-icon
             src="https://cdn.lordicon.com/vxnfmfuw.json"
@@ -18,8 +18,8 @@ const AboutMeExperience = () => {
 
         </div>
 
-        <div id="about-me-xp-title-container" className="my-3">
-          <h3 className="fs-">Experience</h3>
+        <div id="about-me-xp-title-container" className="mb-3">
+          <h3 className="p-0">Experience</h3>
         </div>
 
         <div id="about-me-xp-body-container">

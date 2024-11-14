@@ -8,7 +8,7 @@ html{
 }
 
 #main-body{
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Domine','Noto Sans','Mona Sans','Outfit','Red Hat Display','Red Hat Text','Roboto Condensed';
   background-color: #B7D7EA;
   background:  radial-gradient(#B7D7EA, #E2EFF6 );
   min-height: calc(100vh - 40px);
@@ -22,4 +22,11 @@ h1,h2,h3,h4,h5{
 #app-container{
   color: #0F558F;
   margin: 1%;
+}
+
+#bottom-nav-bar-links{
+  position: relative;
+  color:  #0F558F;
+  text-decoration: none;
+  cursor: pointer;
 }

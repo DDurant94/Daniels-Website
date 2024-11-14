@@ -4,6 +4,10 @@
   color: #B7D7EA;
 }
 
+#contact-me-links-bg-container{
+  background-color: #64A4CE;
+}
+
 #work-together-bttn:hover{
   background-color: #0F558F;
   color: #E2EFF6;

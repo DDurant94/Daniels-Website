@@ -9,10 +9,11 @@ const PortfolioProjects = () => {
 
   return (
     <>
-      <div id="projects-container" className="m-sm-0 m-md-1 m-lg-4 m-xl-5 m-xxl-5 container-fluid-center">
+      <div id="projects-container" className="m-sm-1 m-md-1 m-lg-4 m-xl-5 m-xxl-5 container-fluid-center">
 
         <div className="mb-2 mt-5 text-center">
-          <h2>Featured Projects</h2>
+          <p className="mb-0">My Recent</p>
+          <h2>Projects</h2>
         </div>
 
         <Row> 

@@ -5,6 +5,8 @@ import ContactMe from "./../HomePage/Home-Components/ContactMe/ContactMe";
 import PortfolioProjects from "./../HomePage/Home-Components/Projects/PortfolioProjects";
 import PhotoGallery from "./../HomePage/Home-Components/Gallery/PhotoGallery";
 
+import { Link } from "react-scroll";
+
 const Home = () => {
 
   return (
@@ -30,9 +32,9 @@ const Home = () => {
 
         <div className="shadow rounded-5" style={{backgroundColor:"#ffffff8f"}}>
 
-        <div id="skills" className="mb-5" >
-          <Skills/>
-        </div>
+          <div id="skills" className="mb-5">
+            <Skills/>
+          </div>
 
         <br/>
         
@@ -49,13 +51,35 @@ const Home = () => {
 
         </div>
         
-        
         <br />
 
         <div className="shadow rounded-5 p-3" style={{backgroundColor:"#ffffff8f"}}>
 
           <div id="photo-gallery">
             <PhotoGallery/>
+          </div>
+
+        </div>
+
+        <div className="my-5 mx-5 p-3 container-fluid-center">
+
+          <div className="text-center mx-5" id="second-nav-bar">
+
+            <div className="d-flex justify-content-center">
+              <div className="m-2 p-2">
+                <Link id="nav-links" to="about-me" smooth={true} duration={300}>About</Link>
+              </div>
+
+              <div className="m-2 p-2">
+                <Link id="nav-links" to="skills" smooth={true} duration={300}>Skills</Link>
+              </div>
+
+              <div  className="m-2 p-2">
+                <Link id="nav-links" to="projects" smooth={true} duration={300}>Projects</Link>
+              </div>
+
+            </div>
+
           </div>
 
         </div>

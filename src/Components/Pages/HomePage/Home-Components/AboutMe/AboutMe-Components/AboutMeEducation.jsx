@@ -6,7 +6,7 @@ const Education = () => {
 
       <div className="container-fluid-center text-center p-2" id="about-me-edu-container">
 
-        <div id="about-me-edu-icon-container" className="mt-2">
+        <div id="about-me-edu-icon-container" className="mt-4">
 
           <lord-icon
               src="https://cdn.lordicon.com/uvaoqsvy.json"
@@ -19,14 +19,14 @@ const Education = () => {
 
         </div>
 
-        <div className="my-3" id="about-me-edu-title-container">
-          <h3 className="">Education</h3>
+        <div className="mb-3" id="about-me-edu-title-container">
+          <h3 className="p-0">Education</h3>
         </div>
 
         <div className="" id="about-me-edu-body-container">
 
           <div className="" id="about-me-edu-body-title-containers">
-            <h4 className="" >Full Stack Software Engineering Certification | Backend Specialization Certification | Coding Temple</h4>
+            <h4 className="fs-5" >Full Stack Software Engineering Certification | Backend Specialization Certification | Coding Temple</h4>
           </div>
 
           <div className="" id="about-me-edu-body-text-containers">
@@ -38,7 +38,7 @@ const Education = () => {
           <div id="about-me-edu-body-background-container" className="mt-5 mb-4">
 
             <div className="" id="about-me-edu-body-title-containers">
-              <h4>Background in Management and Logistics</h4>
+              <h4 className="fs-5">Background in Management and Logistics</h4>
             </div>
 
             <div className="" id="about-me-edu-body-text-containers">

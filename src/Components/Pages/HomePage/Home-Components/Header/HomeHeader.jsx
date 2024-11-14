@@ -29,28 +29,41 @@ const HomeHeader = () => {
         <Row className="container-fluid-center mb-5">
 
           <Col className="mb-5 d-flex justify-content-center align-items-center" xs={12} sm={6} md={6} lg={6}>
-            <motion.div animate={[{y:0,x:0},{opacity:1}]} transition={{ duration: 0.3, delay: .3, ease: "linear" }} initial={[{y:300, x:300}, {opacity:0}]} id="profile-picture-container" className="swirl-border">
+            <motion.div 
+              animate={[{y:0,x:0},{opacity:1}]} 
+              transition={{duration: 0.3, delay: .3, ease: "easeIn" }} 
+              initial={[{y:-600, x:-430}, {opacity:0}]} 
+              id="profile-picture-container" 
+              className="swirl-border">
               <img src={ProfilePicture2} alt={ProfilePicture} className="img-fluid mx-auto d-block rounded-circle shadow" style={{maxHeight:"600px"}}></img>
             </motion.div>
           </Col>
 
           <Col className="mb-5 mt-5" xs={12} sm={6} md={6} lg={6}>
 
-          <motion.div animate={[{x:0},{opacity:1}]} transition={{ duration: 0.3, delay: .5, ease: "linear" }} initial={[{x:300}, {opacity:0}]}>
+          <motion.div animate={[{x:0},{opacity:1}]} transition={{ duration: 0.3, delay: .5, ease: "easeIn" }} initial={[{x:300}, {opacity:0}]}>
 
             <motion.div id="home-header-wrapper" className="text-center mb-5">
 
-              <div id="title-container" className="mt-lg-5">
-                <h1>Hello, I&apos;m Daniel Durant</h1>
-              </div>
+              <div id="header-title-container" className="d-block">
 
-              <div id="header-p-container">
-                <p>Full-Stack Software Engineer</p>
+                <div id="header-title-p1-container" className="mt-lg-5">
+                  <p className="m-0">Hello, I&apos;m</p>
+                </div>
+
+                <div id="title-container" className="">
+                  <h1 className="m-0">Daniel Durant</h1>
+                </div>
+
+                <div id="header-title-p2-container" className="fs-5">
+                  <p>Full-Stack Software Engineer</p>
+                </div>
+
               </div>
 
             </motion.div>
 
-            <motion.div animate={[{x:0},{opacity:1}]} transition={{ duration: 0.4, delay: 1, ease: "linear" }} initial={[{x:300}, {opacity:0}]} className="d-flex justify-content-around mt-3">
+            <motion.div animate={[{x:0},{opacity:1}]} transition={{ duration: 0.4, delay: 1, ease: "easeIn" }} initial={[{x:300}, {opacity:0}]} className="d-flex justify-content-around mt-3">
               <Row className="container-fluid-center">
                 <Col xs={6} sm={6} md={6} lg={6}>
                 <Button className="shadow container-fluid-center" id="header-bttns" onClick={handleResumeClick}>
@@ -82,15 +95,15 @@ const HomeHeader = () => {
 
             </motion.div>
 
-            <motion.div animate={[{x:0},{opacity:1}]} transition={{ duration: 0.5, delay: 1.5, ease: "linear" }} initial={[{x:300}, {opacity:0}]} className="d-flex justify-content-around mt-3">
+            <motion.div animate={[{x:0},{opacity:1}]} transition={{ duration: 0.5, delay: 1.5, ease: "easeIn" }} initial={[{x:300}, {opacity:0}]} className="d-flex justify-content-around mt-3">
 
               <Row>
-                <Col className="fs-2">
+                <Col className="fs-1">
 
                   <a href="https://github.com/DDurant94" id="header-links"><i className="bi bi-github"></i></a>
                 </Col>
 
-                <Col className="fs-2">
+                <Col className="fs-1">
                   <a href="https://www.linkedin.com/in/daniel-durant-30a0252b9/" id="header-links"><i className="fa fa-linkedin-square"></i></a>
                 </Col>
 

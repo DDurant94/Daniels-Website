@@ -1,9 +1,19 @@
+
+
 #home-header {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+#header-title-container{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#header-title-p1-container,#header-title-p2-container{
+  color:#1965a0c1;
 }
 
 #header-bttns {
@@ -17,6 +27,8 @@
   color: #0F558F;
   animation: pulse 3s infinite;
 }
+
+
 
 #header-bttns:hover {
   background-color: #0F558F;

@@ -9,7 +9,7 @@ const PhotoGallery = () => {
   return (
     <>
       <Container id="gallery-container" className="container-fluid-center">
-        <Row className="">
+        <Row>
           <Col>
             <PhotoCarousel />
           </Col>

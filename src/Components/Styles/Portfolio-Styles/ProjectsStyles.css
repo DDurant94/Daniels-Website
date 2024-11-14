@@ -124,7 +124,7 @@ circle {
 
 @media (max-width: 435px){
   #project-cards{
-    width: 320px;
+    width: 340px;
     height: auto;
   }
 
@@ -133,7 +133,10 @@ circle {
   }
 
   #card-img:hover {
-    transform: scale(1.10);
+    transform: none;
+    top: 0;
+    bottom: 0;
+    border-width: .19rem;
   }
 
   #projects-list-item:first-of-type #card-img:hover{
@@ -147,7 +150,7 @@ circle {
 
 @media (max-width: 400px){
   #project-cards{
-    width: 290px;
+    width: 300px;
     height: auto;
   }
 
@@ -172,7 +175,7 @@ circle {
   }
 
   #projects-list{
-    height: 32.5rem;
+    height: 30.5rem;
   }
   
 }

@@ -19,7 +19,7 @@ const AboutMe = () => {
           </div>
 
           <div id="about-me-header-body-text-container">
-            <p className="fs-4">The source code behind Daniel</p>
+            <p className="fs-4">Daniel&apos;s Source Code</p>
           </div>
 
         </div>
