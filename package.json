@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview --port $PORT --host 0.0.0.0",
     "start": "vite preview --port $PORT --host 0.0.0.0"
-  },
+  }
+  
+  ,
   "dependencies": {
     "@types/react-scroll": "^1.8.10",
     "axios": "^1.7.7",
