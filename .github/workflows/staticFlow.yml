@@ -24,8 +24,14 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm ci
-      - run: npm run build
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Create SPA fallback (404.html)
+        run: cp dist/index.html dist/404.html
 
       - name: Upload dist folder
         uses: actions/upload-pages-artifact@v3
@@ -43,4 +49,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
