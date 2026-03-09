@@ -17,7 +17,7 @@ const App = () => {
       setLoading(false);
     }, 1000);
 
-    setIsErrorPage(location.pathname !== "/" );
+    setIsErrorPage(location.pathname !== "/Daniels-Website/" );
   }, [location]);
 
   return (
@@ -27,7 +27,7 @@ const App = () => {
           <div id="app-container">
             {!isErrorPage && <NavigationBar />}
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/Daniels-Website/" element={<Home />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
